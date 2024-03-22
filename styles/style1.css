@@ -1,0 +1,263 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Fredoka:wght@300..700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Raleway:ital,wght@0,600;1,600&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+}
+.section-principal{
+    background-image: url('../images/home-principal-uni.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    padding:50px 40px;
+}
+.navbar-header{
+    width: 80%;
+    max-width: 1200px;  
+    display: flex;
+    align-items: center;
+    /* border: 1px solid white; */
+    margin: auto;
+    justify-content: space-between;
+}
+.navbar-header img{
+    width: 150px;
+}
+.navbar-header ul{
+    display: flex;
+   
+}
+.navbar-header ul li{
+    color: #fff;
+    list-style: none;
+}
+.navbar-header ul li a{
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    text-decoration: none;
+    padding: 5px 20px;
+    color: #fff;
+}
+/* ##### section content ####3 */
+.section-content{
+    width: 78%;
+    padding-top: 250px;
+    margin: auto;
+}
+.title-sgd{
+    color: #fff;
+    font-size: 35px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    margin-bottom: 10px;
+}
+.parf-sgd{
+    color: #fff;
+    font-size: 27px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    margin-bottom: 45px;
+}
+.section-content a{
+    margin-top: 10px;
+    text-decoration: none;
+    border: none;
+    background-color: #7F0304;
+    font-size: 40px;
+    padding: 15px 25px;
+    border-radius: 10px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    color: #fff;
+    margin-bottom: 190px;
+    cursor: pointer;
+    transition: all ease-in-out .7s;
+}
+.section-content a:hover{
+    border: none;
+    background-color: #6e0202;
+    font-size: 40px;
+    padding: 15px 25px;
+    border-radius: 10px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    color: #fff;
+    margin-bottom: 190px;
+    cursor: pointer;
+}
+/* ######CONTENT INFOR######### */
+
+.content-info{
+    width: 100%;
+    background-color: #7F0304;
+}
+.fat-content{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 45px 1px;    
+}
+.fat-content .title_child{
+    display: flex;
+    align-items: center;
+    color: #fff;
+    font-size: 22px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+}
+.fat-content .title_child_inf h2{
+    color: #fff;
+    margin-bottom: 15px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+}
+
+.fat-content .title_child_inf p{
+    color: #fff;
+    font-size: 18px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+}
+.fat-content .title_child_inf p{
+    color: #fff;
+    font-size: 18px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+}
+.fat-content .inf_child h2{
+    color: #fff;
+    margin-bottom: 15px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+}
+
+.fat-content .inf_child a{
+    color: #fff;
+    font-size: 18px;
+    text-decoration: none;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+}
+.fat-content .inf_child p{
+    color: #fff;
+    font-size: 18px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+}
+/* ####### INFORMATIC SECTION ###### */
+.informatic-section{
+    width: 100%;
+    background-color: #fff;
+    padding: 10px 1px;
+}
+.container-informatic{
+    width: 80%;
+    margin: auto;
+    padding: 10px 2px;
+    text-align: center;
+
+}
+.container-informatic h1{
+    color: #7F0304;
+    font-size: 32px;
+    margin-bottom: 10px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 600;
+}
+.container-informatic h3{
+    color: #000000;
+    font-size: 18px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+.father-contents-childs{
+    margin: auto;
+    padding: 60px 2px;
+    display: grid;
+    grid-template-columns: repeat(3, minmax(250px, 1fr));
+    gap: 50px;
+}
+.hijo{
+    /* border: 2px solid black; */
+    padding: 50px 1px;
+    border-radius: 10px;
+    background-color: #E7E6E6;
+    /* background: #000000; */
+}
+.hijo i{
+    /* border: 2px solid black; */
+    font-size: 50px;
+    color: #7F0304;
+    /* background: #000000; */
+}
+.hijo p{
+    /* border: 2px solid black; */
+    font-size: 24px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 600;
+    /* background: #000000; */
+}
+/* ###### FOOTER SECTION #######*/
+
+footer{
+    display: flex;
+    padding: 70px 10px;
+    justify-content: center;
+    font-size: 20px;
+    background-color: #7F0304;
+    color: #fff;
+}
+
+@media (max-width:1000px) {
+    .section-principal{
+        background-image: url('../images/home-principal-uni.jpg');
+        background-size: cover;
+        background-position: center;
+    }
+    .validando-nuevo li{
+        display: none;
+    }
+    .rep{
+        width: 20px;
+        height: 20px;
+        border-radius: 10px;
+        background-color: #7F0304;
+    }
+    
+    .content-info{
+        
+    }
+    .fat-content{
+        display: flex;
+        flex-direction: column;
+
+    }
+    .father-contents-childs{
+        display: flex;
+        flex-direction: column;
+        padding: 120px 10px;
+    }
+    .section-content a{
+        font-size: 25px;
+    }
+    footer{
+        text-align: center;
+    }
+}
+@media (min-width:1000px) {
+    .rep{
+        display: none;
+    }
+}
+

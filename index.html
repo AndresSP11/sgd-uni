@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./styles/style1.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+    <div class="section-principal">
+        <div class="navbar-header">
+            <img src="./images/Logo-univ.png" alt="Imagen de la UNI" class="imagenU">
+            <ul class="validando-nuevo">
+                    <li class="enlace-1"><a href="" class="enlace-1">Tutoriales</a></li>
+                    <li class="enlace-2"><a href="" class="enlace-2">Normativa</a></li>
+                    <li class="enlace-3"><a href="" class="enlace-3">Preguntas Frecuentes</a></li>
+                    <li class="enlace-4"><a href="" class="enlace-4">Firma Perú</a></li>
+                    <li class="enlace-5"><a href="" class="enlace-5">Soporte SGD</a></li>
+            </ul>
+            <div class="rep">
+                <a href=""></a>
+                <a href=""></a>
+                <a href=""></a>
+                <a href=""></a>
+                <a href=""></a>
+            </div>
+        </div>
+
+        <div class="section-content">
+            <h2 class="title-sgd" >Sistema de Gestión Documental(SGD)</h2>
+            <p class="parf-sgd">"Piensa, planea y vive digital"</p>
+            <a class="botonIngresado" href="https://sgduni.uni.edu.pe/sso-Web/login.xhtml">Ingrese aquí</a>
+        </div>  
+    </div>
+    <section class="content-info">
+        <div class="fat-content">
+            <div class="title_child"><h1>Soporte SGD</h1></div>
+            <div class="title_child_inf">
+                <h2>Horario de Atención</h2>
+                <p>De Lunes a Viernes</p>
+                <p>09:00 am - 05:00 p.m</p>
+            </div>
+            <div class="inf_child">
+                <h2>Plataforma Web</h2>
+                <a href="https://helpdesk.uni.edu.pe/">Mesa de ayuda UNI</a>
+                <p>Correo: atencionalclienteuni@uni.edu.pe</p>
+            </div>
+        </div>
+    </section>
+    <section class="informatic-section">
+        <div class="container-informatic">
+            <h1>Tutoriales</h1>
+            <h3>Sistema de Gestión Documental (SGD)</h3>
+            <div class="father-contents-childs">
+                <div class="hijo">
+                    <i class='bx bxs-video'></i>
+                    <p>Videos</p>
+                </div>
+                <div class="hijo">
+                    <i class='bx bxs-file-doc'></i>
+                    <p>Manuales</p>
+                </div>
+                <div class="hijo">
+                    <i class='bx bxs-book-open'></i>
+                    <p>Capacitaciones</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <script src="https://unpkg.com/scrollreveal@4.0.5/dist/scrollreveal.min.js"></script>
+<script>
+    document.addEventListener('DOMContentLoaded', function () {
+        var slideUp = {
+            distance: '120%',
+            duration:'1000',
+            origin: 'bottom',
+            opacity: 0.1
+        };
+        var imagenU = {
+            distance: '200%',
+            duration:'2000',
+            origin: 'left',
+            opacity: 0.3
+        };
+        var title = {
+            distance: '100%',
+            duration:'400',
+            origin: 'top',
+            opacity: 0.1
+        };
+        var enlace_1 = {
+            distance: '200%',
+            duration:'600',
+            origin: 'top',
+            opacity: 0.1
+        };
+        var enlace_2 = {
+            distance: '300%',
+            duration:'800',
+            origin: 'top',
+            opacity: 0.1
+        };
+        var enlace_3 = {
+            distance: '400%',
+            duration:'1000',
+            origin: 'top',
+            opacity: 0.1
+        };
+        var enlace_4 = {
+            distance: '500%',
+            duration:'1200',
+            origin: 'top',
+            opacity: 0.1
+        };
+        var enlace_5 = {
+            distance: '600%',
+            duration:'1400',
+            origin: 'top',
+            opacity: 0.1
+        };
+        var boton = {
+            distance: '200%',
+            duration:'1500',
+            origin: 'bottom',
+            opacity: 0.1
+        };
+        
+        
+        ScrollReveal().reveal('.hijo', slideUp);
+        ScrollReveal().reveal('.imagenU', imagenU);
+        ScrollReveal().reveal('.title-sgd', title);
+        ScrollReveal().reveal('.enlace-1', enlace_1);
+        ScrollReveal().reveal('.enlace-2', enlace_2);
+        ScrollReveal().reveal('.enlace-3', enlace_3);
+        ScrollReveal().reveal('.enlace-4', enlace_4);
+        ScrollReveal().reveal('.enlace-5', enlace_5);
+        ScrollReveal().reveal('.botonIngresado', boton);
+                
+
+    });
+</script>
+    <footer>
+        <p>© 2024 Universidad Nacional de Ingeniería | Sistema de Gestión Documental (SGD) </p>
+    </footer>
+</body>
+</html>
